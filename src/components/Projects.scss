@@ -5,26 +5,27 @@
     margin-bottom: 2rem;
   }
 
-  .project-card {
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .project-list .card {
     background: #1a1a1a;
-    border: 1px solid #333;
+    border: 1px solid #1f1f1f;
     border-radius: 12px;
     padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    h3 {
-      color: #00bfff;
-      font-size: 1.3rem;
-      margin-bottom: 0.3rem;
-    }
-
-    p {
-      margin: 0.4rem 0;
-      color: #ccc;
-    }
-
+    h3 { color: #00bfff; }
+    p { color: #ccc; }
+    ul { margin: 0.5rem 0 1rem 1.2rem; }
     a {
-      margin-top: 0.5rem;
+      margin-top: auto;
       display: inline-block;
       color: #8a2be2;
       font-weight: 500;
