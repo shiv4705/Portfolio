@@ -1,0 +1,33 @@
+#projects {
+  h2 {
+    color: #8a2be2;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    h3 {
+      color: #00bfff;
+      font-size: 1.3rem;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      margin: 0.4rem 0;
+      color: #ccc;
+    }
+
+    a {
+      margin-top: 0.5rem;
+      display: inline-block;
+      color: #8a2be2;
+      font-weight: 500;
+    }
+  }
+}

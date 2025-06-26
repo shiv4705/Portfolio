@@ -1,0 +1,48 @@
+#education {
+    padding: 60px 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  
+    h2 {
+      font-size: 2.2rem;
+      color: #8a2be2;
+      text-align: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+    }
+  
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease;
+    }
+  
+    .card:hover {
+      transform: translateY(-5px);
+    }
+  
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.4rem;
+      color: #fff;
+    }
+  
+    h4 {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 0.6rem;
+    }
+  
+    p {
+      color: #bbb;
+      font-size: 1rem;
+    }
+  }
+  

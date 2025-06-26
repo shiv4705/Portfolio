@@ -1,0 +1,53 @@
+#contact {
+  h2 {
+    color: #8a2be2;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+    color: #ccc;
+  }
+
+  a {
+    color: #00bfff;
+    font-weight: 500;
+  }
+
+  .social-links {
+    /* remove any inherited “card” styling */
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1.2rem;
+      background: linear-gradient(90deg, #4b0082, #003f60);
+      color: #fff !important;
+      font-weight: 600;
+      border-radius: 0.6rem;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      svg {
+        font-size: 1.25rem;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(138, 43, 226, 0.3);
+      }
+    }
+  }
+}

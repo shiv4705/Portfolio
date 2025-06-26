@@ -1,0 +1,72 @@
+#certifications {
+  padding: 2rem 1rem;
+
+  h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #8a2be2;
+    margin-bottom: 2rem;
+  }
+
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .cert-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 1.3rem;
+    transition: 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 40px rgba(138, 43, 226, 0.1);
+    }
+
+    .badge-above {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #aaa;
+      margin-bottom: 0.4rem;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    h3 {
+      margin: 0.3rem 0;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    .issuer {
+      color: #aaa;
+      font-size: 0.95rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .duration {
+      font-size: 0.85rem;
+      color: #bbb;
+      margin-bottom: 0.7rem;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.9rem;
+      color: #1e90ff;
+      gap: 5px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
