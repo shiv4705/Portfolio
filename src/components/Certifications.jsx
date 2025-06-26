@@ -1,5 +1,6 @@
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
+import "./Certifications.scss"; // Ensure this line is present to import styles
 
 const certifications = [
   {

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Experience.scss"; // Ensure this line is present to import styles
 
 const Experience = () => (
   <section id="experience">

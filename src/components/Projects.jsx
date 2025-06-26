@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.scss"; // Ensure this line is present to import styles
 
 const projects = [
   {
