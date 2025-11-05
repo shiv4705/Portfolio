@@ -5,12 +5,12 @@ const skills = [
   "Web Development",
   "MERN Stack",
   "App Development",
+  "Flutter",
   "Database Management",
+  "Data Structures & Algorithms",
+  "C & C++",
   "AI & ML",
   "Python",
-  "Data Structures & Algorithms",
-  "Flutter",
-  "C & C++",
 ];
 
 const Skills = () => (

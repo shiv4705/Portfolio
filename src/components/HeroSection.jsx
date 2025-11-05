@@ -9,7 +9,7 @@ const HeroSection = () => (
       <div className="hero-left">
         <img src={profilePic} alt="Shiv Patel" className="profile-pic" />
         <h1>Shiv Patel</h1>
-        <h2>Full Stack Developer</h2>
+        <h2>MERN Stack & Flutter Developer</h2>
       </div>
 
       {/* RIGHT: About + Button */}
@@ -19,7 +19,7 @@ const HeroSection = () => (
           building scalable, efficient and user-friendly web applications using
           the <strong>MERN stack</strong>. I thrive on solving real-world
           problems through clean, maintainable code and intuitive UI/UX. I also
-          have basic knowledge of <strong>Flutter</strong> which helps me to
+          have knowledge of <strong>Flutter</strong> which helps me to
           create cross-platform mobile applications.
         </p>
         <p>
