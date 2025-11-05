@@ -18,18 +18,20 @@ const projects = [
     stack: "React.js, Node.js, Express.js, MongoDB, Razorpay",
   },
   {
-    name: "LiveLoop",
-    link: "https://github.com/shiv4705/LiveLoop",
-    duration: "May 2025 – June 2025",
-    desc: `LiveLoop is a collaborative code editor with real-time synchronization and 
-    multi-language compilation support using JDoodle API. Built with React and Express.`,
+    name: "CampusSync",
+    link: "https://github.com/shiv4705/CampusSync",
+    duration: "July 2025 – October 2025",
+    desc: `CampusSync is a comprehensive campus management system. It streamlines academic and 
+    administrative workflows by integrating features like attendance tracking, study material sharing, 
+    notices, assignments, and timetables into a single, easy-to-use platform.`,
     features: [
-      "Live multi-user code editing",
-      "Socket.IO-based collaboration",
-      "Modern UI with React + Bootstrap",
-      "Room-based session management",
+      "Authentication with role-based access",
+      "Attendance tracking",
+      "Study material & notice sharing",
+      "Assignment management",
+      "Timetable generation",
     ],
-    stack: "React, Socket.IO, Express.js, JDoodle API, Bootstrap",
+    stack: "Flutter, Firebase, Supabase",
   },
   {
     name: "GreenMind",
