@@ -9,7 +9,7 @@ const HeroSection = () => (
       <div className="hero-left">
         <img src={profilePic} alt="Shiv Patel" className="profile-pic" />
         <h1>Shiv Patel</h1>
-        <h2>MERN Stack & Flutter Developer</h2>
+        <h2>Software Developer</h2>
       </div>
 
       {/* RIGHT: About + Button */}
